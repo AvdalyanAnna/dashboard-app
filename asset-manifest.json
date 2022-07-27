@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c02c61d.css",
+    "main.js": "/static/js/main.e6a9d53e.js",
+    "static/media/Rectangle7.png": "/static/media/Rectangle7.fe5242634642d91e1952.png",
+    "static/media/car.png": "/static/media/car.ef283bb0aa46e1966ebf.png",
+    "static/media/circle.png": "/static/media/circle.e769539d734a67a08985.png",
+    "static/media/cars.png": "/static/media/cars.a49467a98f59c455e34a.png",
+    "static/media/Group2271.png": "/static/media/Group2271.b1ab5c446d0a0380183b.png",
+    "static/media/Profile.png": "/static/media/Profile.16534ea9902d8c898aff.png",
+    "static/media/Nippo-Extralight.ttf": "/static/media/Nippo-Extralight.4ba2c1644faf76d34ad2.ttf",
+    "static/media/Nippo-Bold.ttf": "/static/media/Nippo-Bold.b6d99746999e2aaa13f7.ttf",
+    "static/media/Sportypo-Reguler-Demo.ttf": "/static/media/Sportypo-Reguler-Demo.8350a9a9bf41520123f2.ttf",
+    "static/media/robot.png": "/static/media/robot.93331e06cd4954f757b1.png",
+    "static/media/ellipse1.png": "/static/media/ellipse1.5ace2bdd69a2a38aaaf5.png",
+    "index.html": "/index.html",
+    "main.6c02c61d.css.map": "/static/css/main.6c02c61d.css.map",
+    "main.e6a9d53e.js.map": "/static/js/main.e6a9d53e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c02c61d.css",
+    "static/js/main.e6a9d53e.js"
+  ]
+}
