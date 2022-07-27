@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Nippo';
+    src: url(../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
+}
+
+.Header {
+    max-width: 3240px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(190, 190, 190, 0.12);
+    border-radius: 4.75904px;
+
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    margin: 0 0 0 85px;
+}
+
+.nav-menu img {
+    max-width: 57px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo img {
+    padding: 54px 0 36px 0;
+    max-width: 200px;
+}
+
+.nav-logo h1 {
+    letter-spacing: 2.85585px;
+    font-family: "Nippo";
+    max-width: 235px;
+    font-size: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.hr {
+    width: 300px;
+    height: 2px;
+    background: rgb(29, 28, 49);
+    background: linear-gradient(90deg, rgba(29, 28, 49, 1) 10%, rgba(151, 151, 151, 1) 100%);
+    opacity: 0.4;
+    /* margin: 0 157px 0 144px; */
+}
+
+.smart-chain-logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #ea349833;
+    box-shadow: 0px -57.2781px 133.649px 171.834px rgba(234, 52, 151, 12%);
+    padding: 9px 64px 9px 59px;
+}
+
+.smart-chain-logo img {
+    max-width: 44px;
+}
+
+.smart-chain-logo::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 73px;
+    background-color: #ea349829;
+    left: -11px;
+
+}
+
+.smart-chain-logo::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 73px;
+    background-color: #ea349829;
+    right: -11px;
+
+}
+
+.smart-chain-logo h1 {
+    font-family: "Nippo";
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-weight: 380px;
+    margin: 0 0 0 13px;
+}
+
+.nav-item {
+    align-items: center;
+    display: flex;
+    padding: 16px 55px;
+    background: #ea349833;
+    box-shadow: 0px -57.2781px 133.649px 171.834px rgba(234, 52, 151, 12%);
+}
+
+.nav-item img {
+    max-width: 38px;
+}
+
+.nav-item-img {
+    padding: 0 35px;
+    background-image: url(../../assets/img/Group57.png);
+    background-size: 100% 100%;
+}
+
+.nav-item h2 {
+    font-family: "Nippo";
+    margin: 0 41px 0 17px;
+    color: #FFFFFF;
+    
+    font-size: 30px;
+    line-height: 41px;
+    opacity: 0.8;
+}
+
+.nav-item span {
+    font-family:"Nippo";
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin: 0 0 0 33px;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+}
+
+.nav-user img {
+    margin: 0 0 0 21px;
+    max-width: 142px;
+}
+
+.nav-user h1 {
+    font-family: "Nippo";
+    /* margin: 0 13px 0 178px; */
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 378;
+    color: #FFFFFF;
+}
+
+.nav-search {
+    margin: 0 61px 0 0;
+}
+
+.nav-search img {
+    max-width: 43px;
+}
+
+@media screen and (max-width:2560px) {
+    .Header {
+        max-width: 2194px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .nav-menu {
+        margin: 0 0 0 56px;
+    }
+
+    .nav-menu img {
+        max-width: 40px;
+    }
+
+    .nav-logo h1 {
+        max-width: 130px;
+        font-size: 20px;
+    }
+
+    .nav-logo img {
+        padding: 37px 0 22px 0;
+        max-width: 143px;
+    }
+
+    .smart-chain-logo img {
+        max-width: 30px;
+    }
+
+    .hr {
+        width: 211px;
+    }
+
+    .smart-chain-logo {
+        padding: 6px 39px;
+    }
+
+    .smart-chain-logo::before {
+        height: 52px;
+        right: -10px;
+    }
+
+    .smart-chain-logo::after {
+        height: 52px;
+        right: -10px;
+    }
+
+    .smart-chain-logo h1 {
+        font-size: 20px;
+        margin: 0 0 0 10px;
+    }
+
+    .nav-item {
+        padding: 11px 37px;
+    }
+
+    .nav-item img {
+        max-width: 26px;
+    }
+
+    .nav-item h2 {
+        margin: 0 25px 0 12px;
+        font-size: 20px;
+    }
+
+    .nav-item span {
+        margin: 0 0 0 22px;
+        font-size: 20px;
+    }
+
+    .nav-user img {
+        margin: 0 0 0 13px;
+        max-width: 96px;
+    }
+
+    .nav-user h1 {
+        font-size: 20px;
+    }
+
+    .nav-search img {
+        max-width: 29px;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    .Header {
+        max-width: 1620px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .nav-menu {
+        margin: 0 0 0 44px;
+    }
+
+    .nav-menu img {
+        max-width: 28px;
+    }
+
+    .nav-logo h1 {
+        max-width: 100px;
+        font-size: 15px;
+    }
+
+    .nav-logo img {
+        padding: 27px 0 17px 0;
+        max-width: 133px;
+    }
+
+    .smart-chain-logo img {
+        max-width: 22px;
+    }
+
+    .hr {
+        width: 155px;
+    }
+
+    .smart-chain-logo {
+        padding: 4px 29px;
+    }
+
+    .smart-chain-logo::before {
+        height: 49px;
+        right: -10px;
+    }
+
+    .smart-chain-logo::after {
+        height: 49px;
+        right: -10px;
+    }
+
+    .smart-chain-logo h1 {
+        font-size: 15px;
+        margin: 0 0 0 10px;
+    }
+
+
+    .nav-item-img {
+        padding: 0 10px;
+    }
+
+    .nav-item {
+        padding: 8px 27px;
+    }
+
+    .nav-item img {
+        max-width: 19px;
+    }
+
+    .nav-item h2 {
+        margin: 0 20px 0 8px;
+        font-size: 15px;
+    }
+
+    .nav-item span {
+        margin: 0 0 0 17px;
+        font-size: 15px;
+    }
+
+    .nav-user img {
+        margin: 0 0 0 12px;
+        max-width: 71px;
+    }
+
+    .nav-user h1 {
+        font-size: 15px;
+    }
+
+    .nav-search img {
+        max-width: 21px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .Header {
+        max-width: 1360px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .nav-menu {
+        margin: 0 0 0 35px;
+    }
+
+    .nav-menu img {
+        max-width: 25px;
+    }
+
+    .nav-logo img {
+        padding: 22px 0 15px 0;
+        max-width: 87px;
+    }
+
+    .smart-chain-logo img {
+        max-width: 19px;
+    }
+
+    .nav-logo h1 {
+        max-width: 100px;
+        font-size: 13px;
+    }
+
+    .hr {
+        width: 130px;
+    }
+
+    .smart-chain-logo {
+        padding: 0px 24px;
+    }
+
+    .smart-chain-logo::before {
+        height: 41px;
+        right: -10px;
+    }
+
+    .smart-chain-logo::after {
+        height: 41px;
+        right: -10px;
+    }
+
+    .smart-chain-logo h1 {
+        font-size: 13px;
+        margin: 0 0 0 6px;
+    }
+
+    .nav-item-img {
+        padding: 0 15px;
+    }
+
+    .nav-item img {
+        max-width: 16px;
+    }
+
+    .nav-item {
+        padding: 0px 23px;
+    }
+
+    .nav-item h2 {
+        margin: 0 15px 0 7px;
+        font-size: 13px;
+    }
+
+    .nav-item span {
+        margin: 0 0 0 14px;
+        font-size: 13px;
+    }
+
+    .nav-user img {
+        margin: 0 0 0 7px;
+        max-width: 60px;
+    }
+
+    .nav-user h1 {
+        font-size: 13px;
+    }
+
+    .nav-search img {
+        max-width: 18px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .hr {
+        display: none;
+    }
+
+    .smart-chain-logo {
+        display: none;
+    }
+
+    .nav-item-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    .nav-logo h1 {
+        display: none;
+    }
+
+    .nav-user h1 {
+        display: none;
+    }
+
+    .nav-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .Header {
+        max-width: 384px;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    nav {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Header {
+        max-width: 278px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    nav {
+        padding: 0 15px;
+    }
+}

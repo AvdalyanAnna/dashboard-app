@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Sportypo';
+    src: url(../../../assets/fonts/Sportypo-Reguler-Demo.ttf);
+}
+
+.dashboard {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard h1 {
+    letter-spacing: 6px;
+    font-family: 'Sportypo';
+    color: #FFFF;
+    font-size: 152px;
+    line-height: 71px;
+    opacity: 0.9;
+    text-shadow: -3px -4px 1px #EA3498, 3px 3px 1px rgb(25, 225, 242);
+}

@@ -1,0 +1,15 @@
+.Main {
+    max-width: 3240px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main-block {
+    margin: 0 0 0 30px;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.personal-link {
+    width: 557.52px;
+    height: 175.63px;
+    background: rgba(190, 190, 190, .1);
+    
+    border-radius: 4.75905px;
+    margin-top: 36.61px;
+    
+}
+
+.personal-link-box h3 {
+    padding: 15px 55px 17px 103px;
+    color: #fff;
+    font-size: 15.2289px;
+    line-height: 107%;
+    opacity: 0.6;
+    letter-spacing: 2.85543px;
+}
+
+.personal-link-box2 {
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.personal-link-box2 {
+    font-weight: bold;
+}
+
+.bsg {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.btn {
+    display: flex;
+    grid-gap: 10px;
+    background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+        border-radius: 4.75905px;
+        outline: none;
+        border: none;
+    padding: 8px 20px;
+}
+
+.btn2 {
+    background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+        border-radius: 4.75905px;
+        outline: none;
+            border: none;
+            padding: 8px 10px;
+}
