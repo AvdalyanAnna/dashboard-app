@@ -1,65 +1,87 @@
 @font-face {
-    font-family: 'Nippo';
-    src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
+  font-family: "Nippo";
+  src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
 }
 
 .Section {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .section-block {
-    display: flex;
-    /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .block-items {
-
-    max-width: 277px;
-    background: linear-gradient(90deg, rgba(210, 70, 158, 0.83) 0.78%, rgba(75, 213, 207, 0.83) 100.02%);
-    /* opacity: 0.2; */
-    display: flex;
+  max-width: 277px;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 70, 158, 0.83) 0.78%,
+    rgba(75, 213, 207, 0.83) 100.02%
+  );
+  /* opacity: 0.2; */
+  display: flex;
 }
 
 .items-txt {
-    padding: 22px 44px 20px 20px;
+  padding: 22px 44px 20px 20px;
 }
 
 .items-txt h1 {
-    max-width: 212px;
-    font-size: 16px;
-    color: #FFFFFF;
-    opacity: 0.7;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
 }
 
 .items-txt h2 {
-    color: #FFFFFF;
-    font-size: 27px;
-    opacity: 0.8;
+  color: #ffffff;
+  font-size: 27px;
+  opacity: 0.8;
 }
 
 .hr3 {
-    width: 130px;
-    height: 1px;
-    background: #EA3498;
+  width: 130px;
+  height: 1px;
+  background: #ea3498;
 }
 
 .hr4 {
-    width: 97px;
-    height: 1px;
-    background: #EA3498;
+  width: 97px;
+  height: 1px;
+  background: #ea3498;
 }
 
 .txt {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .txt p {
-    margin: 0 0 0 7px;
-    padding: 4px 9px;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 700;
-    background: linear-gradient(135deg, #51C81C 0%, #48AF1B 100%);
-    border-radius: 5.25709px;
+  margin: 0 0 0 7px;
+  padding: 4px 9px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  background: linear-gradient(135deg, #51c81c 0%, #48af1b 100%);
+  border-radius: 5.25709px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .items-txt {
+    padding: 22px 12px 20px 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .items-txt {
+    padding: 22px 0px 20px 5px;
+  }
+
+  .items-txt h1 {
+    font-size: 10px;
+  }
+
+  .items-txt h2 {
+    font-size: 15px;
+  }
 }

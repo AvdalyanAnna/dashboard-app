@@ -4,7 +4,6 @@
 }
 
 .Section3 {
-    width: 1588px;
     height: 884px;
     border: 1px solid;
     margin-top: 43px;
@@ -48,7 +47,7 @@
 }
 
 .range {
-    width: 567px;
+    width: 95%;
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -56,7 +55,7 @@
 
 .img-range {
     position: relative;
-    width: 326px;
+    width: 70%;
     height: 2px;
     background: linear-gradient(90deg, #4BD5CF 0.78%, #D2469E 100.02%);
     z-index: 0;
@@ -125,6 +124,15 @@
 
 .Section3-blocks {
     display: flex;
+    width: 25%;
+}
+
+.Section3-blocks-cars{
+    width: 40%;
+}
+
+.Section3-box{
+    width: 100%;
 }
 
 .Section3-block-items {
@@ -136,7 +144,6 @@
 
 .Section3-items {
     padding: 1px 0;
-    width: 330.35px;
     height: 281.96px;
     background: linear-gradient(90deg, rgba(210, 70, 158, 0.2) 0.78%, rgba(75, 213, 207, 0.2) 100.02%);
     mix-blend-mode: normal;
@@ -230,7 +237,6 @@
 
 .Section3-items-battery {
     padding: 1px 0;
-    width: 330.35px;
     height: 281.96px;
     background: linear-gradient(90deg, rgba(210, 70, 158, 0.2) 0.78%, rgba(75, 213, 207, 0.2) 100.02%);
     mix-blend-mode: normal;
@@ -309,4 +315,53 @@
 
 .trip-img {
     margin-top: 75px;
+}
+
+@media only screen and (max-width: 2900px){
+    .Section3-blocks-cars img{
+        width: 330px;
+        margin-top: 70px;
+    }
+    
+    .Section3-items h2{
+        font-size: 13px;
+    }
+
+    .section-p p{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 2700px) {
+    .section-p-batery h3{
+        font-size: 25px;
+    }
+
+    .switch img{
+        width: 30px;
+    }
+
+    .trip-trip p{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 2100px) {
+    .Section3-blocks {
+        width: 35%;
+    }
+    
+    .Section3-blocks-cars{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .Section3-blocks {
+        width: 45%;
+    }
+    
+    .Section3-blocks-cars{
+        width: 10%;
+    }
 }

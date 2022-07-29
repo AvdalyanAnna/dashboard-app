@@ -1,15 +1,15 @@
 .Main {
-    max-width: 3240px;
     margin: 0 auto;
-    width: 100%;
-}
-
-.Main-container {
+    width: 86%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.Main-block {
-    margin: 0 0 0 30px;
-    width: 100%;
+.main_left{
+    width: 20%;
+}
+
+.main_right {
+    width: 75%;
 }
