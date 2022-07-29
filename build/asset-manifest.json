@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.49ab45ef.css",
-    "main.js": "/dashboard-app/static/js/main.a0096a45.js",
+    "main.css": "/dashboard-app/static/css/main.6e43a852.css",
+    "main.js": "/dashboard-app/static/js/main.d75c1fd1.js",
     "static/media/Rectangle7.png": "/dashboard-app/static/media/Rectangle7.fe5242634642d91e1952.png",
     "static/media/car.png": "/dashboard-app/static/media/car.ef283bb0aa46e1966ebf.png",
     "static/media/circle.png": "/dashboard-app/static/media/circle.e769539d734a67a08985.png",
@@ -14,11 +14,11 @@
     "static/media/robot.png": "/dashboard-app/static/media/robot.93331e06cd4954f757b1.png",
     "static/media/ellipse1.png": "/dashboard-app/static/media/ellipse1.5ace2bdd69a2a38aaaf5.png",
     "index.html": "/dashboard-app/index.html",
-    "main.49ab45ef.css.map": "/dashboard-app/static/css/main.49ab45ef.css.map",
-    "main.a0096a45.js.map": "/dashboard-app/static/js/main.a0096a45.js.map"
+    "main.6e43a852.css.map": "/dashboard-app/static/css/main.6e43a852.css.map",
+    "main.d75c1fd1.js.map": "/dashboard-app/static/js/main.d75c1fd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ab45ef.css",
-    "static/js/main.a0096a45.js"
+    "static/css/main.6e43a852.css",
+    "static/js/main.d75c1fd1.js"
   ]
 }
