@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.6e43a852.css",
-    "main.js": "/dashboard-app/static/js/main.d75c1fd1.js",
+    "main.css": "/dashboard-app/static/css/main.012f3994.css",
+    "main.js": "/dashboard-app/static/js/main.54d04c6c.js",
     "static/media/Rectangle7.png": "/dashboard-app/static/media/Rectangle7.fe5242634642d91e1952.png",
     "static/media/car.png": "/dashboard-app/static/media/car.ef283bb0aa46e1966ebf.png",
-    "static/media/circle.png": "/dashboard-app/static/media/circle.e769539d734a67a08985.png",
+    "static/media/profileWive.png": "/dashboard-app/static/media/profileWive.67ddcc3739cbff505caf.png",
     "static/media/cars.png": "/dashboard-app/static/media/cars.a49467a98f59c455e34a.png",
     "static/media/Group2271.png": "/dashboard-app/static/media/Group2271.b1ab5c446d0a0380183b.png",
+    "static/media/ProfileImg.png": "/dashboard-app/static/media/ProfileImg.34e3b8e5abbeac64e6a1.png",
     "static/media/Profile.png": "/dashboard-app/static/media/Profile.16534ea9902d8c898aff.png",
     "static/media/Nippo-Extralight.ttf": "/dashboard-app/static/media/Nippo-Extralight.4ba2c1644faf76d34ad2.ttf",
     "static/media/Nippo-Bold.ttf": "/dashboard-app/static/media/Nippo-Bold.b6d99746999e2aaa13f7.ttf",
@@ -14,11 +15,11 @@
     "static/media/robot.png": "/dashboard-app/static/media/robot.93331e06cd4954f757b1.png",
     "static/media/ellipse1.png": "/dashboard-app/static/media/ellipse1.5ace2bdd69a2a38aaaf5.png",
     "index.html": "/dashboard-app/index.html",
-    "main.6e43a852.css.map": "/dashboard-app/static/css/main.6e43a852.css.map",
-    "main.d75c1fd1.js.map": "/dashboard-app/static/js/main.d75c1fd1.js.map"
+    "main.012f3994.css.map": "/dashboard-app/static/css/main.012f3994.css.map",
+    "main.54d04c6c.js.map": "/dashboard-app/static/js/main.54d04c6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e43a852.css",
-    "static/js/main.d75c1fd1.js"
+    "static/css/main.012f3994.css",
+    "static/js/main.54d04c6c.js"
   ]
 }
