@@ -1,3 +1,43 @@
-.right{
-    width: 100%;
+.dashbord_block_section {
+  display: flex;
+  justify-content: space-between;
+  grid-column-gap: 61px;
+  margin-top: 38px;
 }
+
+.right_main_title{
+  color: white;
+  font-size: 30px;
+  padding: 43px 0px;
+}
+
+@media only screen and (max-width: 2560px) {
+  .dashbord_block_section {
+    margin-top: 30px;
+    grid-column-gap: 41px;
+  }
+
+  .right_main_title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+    .dashbord_block_section {
+      grid-column-gap: 32px;
+    }
+
+    .right_main_title {
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .dashbord_block_section {
+      grid-column-gap: 26px;
+    }
+
+    .right_main_title{
+      font-size: 12px;
+    }
+  }

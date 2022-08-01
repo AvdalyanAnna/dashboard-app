@@ -1,0 +1,53 @@
+.boxes {
+  width: 105px;
+  height: 86px;
+  border-radius: 10.3525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_checked {
+  background: linear-gradient(
+    121.47deg,
+    rgba(210, 70, 158, 0.3) 0%,
+    rgba(75, 213, 207, 0.3) 106.69%
+  );
+}
+
+.block_plus {
+  background: linear-gradient(
+    134.2deg,
+    rgba(234, 52, 152, 1) -2.74%,
+    rgba(166, 7, 94, 1) 95.67%
+  );
+}
+
+.block_none {
+  background: linear-gradient(
+    37.72deg,
+    #ffffff -1.55%,
+    rgba(255, 255, 255, 0) 126.54%
+  );
+}
+
+@media only screen and (max-width: 2560px) {
+  .boxes {
+    width: 71px;
+    height: 58px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .boxes {
+    width: 51px;
+    height: 43px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .boxes {
+    width: 41px;
+    height: 36px;
+  }
+}

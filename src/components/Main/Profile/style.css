@@ -1,419 +1,429 @@
 @font-face {
-    font-family: 'Nippo';
-    src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
+  font-family: "Nippo";
+  src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
 }
 
 @font-face {
-    font-family: 'NippoBold';
-    src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Bold.ttf);
+  font-family: "NippoBold";
+  src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Bold.ttf);
 }
 
 .Profile {
-    background: rgba(179, 175, 175, 0.12);
-    border-radius: 6.45525px;
-    margin-top: 25px;
+  background: rgba(179, 175, 175, 0.12);
+  border-radius: 6.45525px;
+  margin-top: 25px;
 }
 
 .profile_container {
-
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .profile-box img {
-    margin-top: 31px;
-    width: 327.43px;
+  margin-top: 31px;
+  width: 327.43px;
 }
 
 .profile-box h3 {
-    font-family: 'NippoBold';
-    margin-top: 42px;
-    font-size: 49.6337px;
-    line-height: 46px;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-shadow: -1px -2px 1px #EA3498, 2px 2px 1px rgb(25, 225, 242);
-    letter-spacing: 0.277671px;
+  font-family: "NippoBold";
+  margin-top: 42px;
+  font-size: 49.6337px;
+  line-height: 46px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: -1px -2px 1px #ea3498, 2px 2px 1px rgb(25, 225, 242);
+  letter-spacing: 0.277671px;
 }
 
 .box2 {
-    margin-top: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box2 img {
-    max-width: 30px;
-    margin: 0 8px 0 0;
-    opacity: 0.4;
+  max-width: 30px;
+  margin: 0 8px 0 0;
+  opacity: 0.4;
 }
 
 .box2 p {
-    font-family: 'NippoBold';
-    font-size: 30.5438px;
-    line-height: 41px;
-    color: #FFFFFF;
-    opacity: 0.4;
+  font-family: "NippoBold";
+  font-size: 30.5438px;
+  line-height: 41px;
+  color: #ffffff;
+  opacity: 0.4;
 }
 
 .box3 {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 54px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 54px;
 }
 
 .box3::after {
-    content: url(../../../assets/img/arrow-right.png);
-    position: absolute;
-    top: 43px;
-    right: 64px;
-
-
+  content: url(../../../assets/img/arrow-right.png);
+  position: absolute;
+  top: 43px;
+  right: 64px;
 }
 
 .box3::before {
-    content: url(../../../assets/img/arrow-left.png);
-    position: absolute;
-    top: 43px;
-    left: 64px;
+  content: url(../../../assets/img/arrow-left.png);
+  position: absolute;
+  top: 43px;
+  left: 64px;
 }
 
 .one {
-    background: rgba(210, 69, 158, .2);
-    padding: 34px 30px;
-    border-radius: 50%;
+  background: rgba(210, 69, 158, 0.2);
+  padding: 34px 30px;
+  border-radius: 50%;
 }
 
 .one img {
-    max-width: 45px;
+  max-width: 45px;
 }
 
 .two {
-    background: rgba(210, 69, 158, .2);
-    padding: 36px 34px;
-    border-radius: 50%;
+  background: rgba(210, 69, 158, 0.2);
+  padding: 36px 34px;
+  border-radius: 50%;
 }
 
 .two img {
-    max-width: 45px;
-
+  max-width: 45px;
 }
 
 .hr2 {
-    height: 164px;
-    border: 1px solid #FFFFFF;
-    opacity: 0.1;
-    margin: 0 97px 0 95px;
+  height: 164px;
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+  margin: 0 97px 0 95px;
 }
 
 .box3-block-item p {
-    font-family: 'Nippo';
-    font-size: 30px;
-    margin-top: 22px;
-    line-height: 46px;
-    color: #FFFFFF;
+  font-family: "Nippo";
+  font-size: 30px;
+  margin-top: 22px;
+  line-height: 46px;
+  color: #ffffff;
 }
 
 .box4 {
-    position: relative;
-    background-image: url(../../../assets//img/circle.png);
-    background-size: 100% 100%;
-    width: 100%;
-    height: 600px;
-    background-position: center;
-    margin-top: 0;
-    padding: 0;
+  position: relative;
+  background-image: url(../../../assets//img/profileWive.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  margin-top: 0;
+  padding: 0;
 }
 
-.box4 img {
-    margin: 0 6px 0 0;
+.box4 {
+  margin: 0 6px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .box5 {
-    position: absolute;
-bottom: 180px;
-    left: 160px;
-    margin-bottom: -50px;
+  width: 100%;
+  padding-top: 178px;
+}
+
+.box5 p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30.5438px;
+  line-height: 107%;
+  text-align: center;
+  letter-spacing: 5.72696px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.box5 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57.2696px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.277671px;
+  color: #ffffff;
+  opacity: 0.9;
+  margin-top: 26px;
 }
 
 .button {
-    background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
-    border-radius: 4.75904px;
-    display: flex;
-    align-items: center;
+  background: linear-gradient(101.44deg, #19e1f2 14.32%, #6ce7dd 98.22%);
+  border-radius: 4.75904px;
+  display: flex;
+  align-items: center;
+  padding: 15px 57px 16px 77px;
+}
+
+@media screen and (max-width: 3000px) {
+  .box5 {
+    left: 210px;
+  }
+}
+
+@media screen and (max-width: 2750px) {
+  .box5 {
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  .profile-box img {
+    max-width: 222px;
+    margin-top: 51px;
+  }
+
+  .profile-box h3 {
+    margin-top: 55px;
+    font-size: 33px;
+    line-height: 31px;
+  }
+
+  .box2 {
+    margin-top: 13px;
+  }
+
+  .box2 p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .box2 img {
+    max-width: 20px;
+  }
+
+  .box3 {
+    margin-top: 31px;
+  }
+
+  .box3::after {
+    top: 44px;
+    right: 45px;
+  }
+
+  .box3::before {
+    top: 44px;
+    left: 45px;
+  }
+
+  .one {
+    padding: 22px 20px;
+  }
+
+  .one img {
+    max-width: 30px;
+  }
+
+  .two {
+    padding: 24px;
+  }
+
+  .two img {
+    max-width: 25px;
+  }
+
+  .hr2 {
+    height: 111px;
+    margin: 30px 64px;
+  }
+
+  .box3-block-item p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 31px;
+  }
+
+  .box4 {
+    height: 600px;
+    margin-top: -24px;
+  }
+
+  .box5 {
+    left: 100px;
+  }
+
+  .button {
+    padding: 20px 79px 22px 104px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .profile-box img {
+    max-width: 163px;
+    margin-top: 31px;
+  }
+
+  .profile-box h3 {
+    margin-top: 42px;
+    font-size: 24px;
+    line-height: 23px;
+  }
+
+  .box2 {
+    margin-top: 11px;
+  }
+
+  .box2 p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .box2 img {
+    max-width: 15px;
+  }
+
+  .box3 {
+    margin-top: 26px;
+  }
+
+  .box3::after {
+    top: 43px;
+    right: 34px;
+  }
+
+  .box3::before {
+    top: 43px;
+    left: 34px;
+  }
+
+  .one {
+    padding: 17px 15px;
+  }
+
+  .one img {
+    max-width: 22px;
+  }
+
+  .two {
+    padding: 17px;
+  }
+
+  .two img {
+    max-width: 19px;
+  }
+
+  .hr2 {
+    height: 81px;
+    margin: 26px 47px;
+  }
+
+  .box3-block-item p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 31px;
+  }
+
+  .box4 {
+    width: 100%;
+    height: 600px;
+    margin-top: -24px;
+  }
+
+  .box5 {
+    left: 70px;
+  }
+
+  .button {
     padding: 15px 57px 16px 77px;
+  }
 }
 
-@media screen and (max-width:3000px) {
-    .box5 {
-        left: 210px;
-    }
-
+@media screen and (max-width: 1500px) {
+  .box5 {
+    left: 50px;
+  }
 }
 
-@media screen and (max-width:2750px) {
-    .box5 {
-        left: 190px;
-    }
+@media screen and (max-width: 1440px) {
+  .profile-box img {
+    max-width: 138px;
+    margin-top: 31px;
+  }
 
-}
+  .profile-box h3 {
+    margin-top: 34px;
+    font-size: 21px;
+    line-height: 19px;
+  }
 
-@media screen and (max-width:2560px) {
-    .profile-box img {
-        max-width: 222px;
-        margin-top: 51px;
-    }
+  .box2 {
+    margin-top: 8px;
+  }
 
-    .profile-box h3 {
-        margin-top: 55px;
-        font-size: 33px;
-        line-height: 31px;
-    }
+  .box2 p {
+    font-size: 15px;
+    line-height: 21px;
+  }
 
-    .box2 {
-        margin-top: 13px;
-    }
+  .box2 img {
+    max-width: 15px;
+  }
 
-    .box2 p {
-        font-size: 20px;
-        line-height: 28px;
-    }
+  .box3 {
+    margin-top: 29px;
+  }
 
-    .box2 img {
-        max-width: 20px;
+  .box3::after {
+    top: 35px;
+    right: 28px;
+  }
 
-    }
+  .box3::before {
+    top: 35px;
+    left: 28px;
+  }
 
-    .box3 {
-        margin-top: 31px;
-    }
+  .one {
+    padding: 14px;
+  }
 
-    .box3::after {
-        top: 44px;
-        right: 45px;
+  .one img {
+    max-width: 19px;
+  }
 
-    }
+  .two {
+    padding: 14px;
+  }
 
-    .box3::before {
-        top: 44px;
-        left: 45px;
-    }
+  .two img {
+    max-width: 16px;
+  }
 
-    .one {
-        padding: 22px 20px;
-    }
+  .hr2 {
+    height: 69px;
+    margin: 28px 40px;
+  }
 
-    .one img {
-        max-width: 30px;
-    }
+  .box3-block-item p {
+    font-size: 13px;
+    margin-top: 9px;
+    line-height: 19px;
+  }
 
-    .two {
-        padding: 24px;
-    }
+  .box4 {
+    width: 100%;
+    height: 600px;
+    margin-top: -24px;
+  }
 
-    .two img {
-        max-width: 25px;
-    }
+  .box5 {
+    left: 30px;
+  }
 
-    .hr2 {
-        height: 111px;
-        margin: 30px 64px;
-    }
-
-    .box3-block-item p {
-        font-size: 20px;
-        margin-top: 15px;
-        line-height: 31px;
-    }
-
-    .box4 {
-
-        height: 600px;
-        margin-top: -24px;
-    }
-
-    .box5 {
-        left: 100px;
-    }
-
-    .button {
-        padding: 20px 79px 22px 104px;
-    }
-}
-
-
-@media screen and (max-width:1920px) {
-    .profile-box img {
-        max-width: 163px;
-        margin-top: 31px;
-    }
-
-    .profile-box h3 {
-        margin-top: 42px;
-        font-size: 24px;
-        line-height: 23px;
-    }
-
-    .box2 {
-        margin-top: 11px;
-    }
-
-    .box2 p {
-        font-size: 15px;
-        line-height: 21px;
-    }
-
-    .box2 img {
-        max-width: 15px;
-
-    }
-
-    .box3 {
-        margin-top: 26px;
-    }
-
-    .box3::after {
-        top: 43px;
-        right: 34px;
-
-    }
-
-    .box3::before {
-        top: 43px;
-        left: 34px;
-    }
-
-    .one {
-        padding: 17px 15px;
-    }
-
-    .one img {
-        max-width: 22px;
-    }
-
-    .two {
-        padding: 17px;
-    }
-
-    .two img {
-        max-width: 19px;
-    }
-
-    .hr2 {
-        height: 81px;
-        margin: 26px 47px;
-    }
-
-    .box3-block-item p {
-        font-size: 20px;
-        margin-top: 15px;
-        line-height: 31px;
-    }
-
-    .box4 {
-        width: 100%;
-        height: 600px;
-        margin-top: -24px;
-    }
-
-    .box5 {
-        left: 70px;
-    }
-
-    .button {
-        padding: 15px 57px 16px 77px;
-    }
-}
-
-@media screen and (max-width:1500px) {
-    .box5 {
-        left: 50px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .profile-box img {
-        max-width: 138px;
-        margin-top: 31px;
-    }
-
-    .profile-box h3 {
-        margin-top: 34px;
-        font-size: 21px;
-        line-height: 19px;
-    }
-
-    .box2 {
-        margin-top: 8px;
-    }
-
-    .box2 p {
-
-        font-size: 15px;
-        line-height: 21px;
-    }
-
-    .box2 img {
-        max-width: 15px;
-
-    }
-
-    .box3 {
-        margin-top: 29px;
-    }
-
-    .box3::after {
-        top: 35px;
-        right: 28px;
-
-    }
-
-    .box3::before {
-        top: 35px;
-        left: 28px;
-    }
-
-    .one {
-        padding: 14px;
-    }
-
-    .one img {
-        max-width: 19px;
-    }
-
-    .two {
-        padding: 14px;
-    }
-
-    .two img {
-        max-width: 16px;
-    }
-
-    .hr2 {
-        height: 69px;
-        margin: 28px 40px;
-    }
-
-    .box3-block-item p {
-        font-size: 13px;
-        margin-top: 9px;
-        line-height: 19px;
-    }
-
-    .box4 {
-        width: 100%;
-        height: 600px;
-        margin-top: -24px;
-    }
-
-    .box5 {
-        left: 30px;
-    }
-
-    .button {
-        padding: 13px 49px 14px 65px;
-    }
+  .button {
+    padding: 13px 49px 14px 65px;
+  }
 }

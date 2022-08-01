@@ -1,0 +1,131 @@
+.section_two_blocks {
+  width: 100%;
+  height: 422px;
+  min-height: 285px;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 70, 158, 0.3) 0.78%,
+    rgba(75, 213, 207, 0.3) 100.02%
+  );
+  border-radius: 10.3525px;
+}
+
+.section_two_blocks_one_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_two_blocks_one_part div {
+  width: 112px;
+  min-width: 75px;
+  height: 45px;
+  min-height: 30px;
+  margin: 35px 68px 0 0;
+  background: #ea3498;
+  box-shadow: 0px -62.115px 144.935px 186.345px rgba(234, 52, 151, 0.06);
+  border-radius: 10.3525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small_block_button_text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.section_two_blocks_text {
+  font-size: 33px;
+  padding: 41px 0 0 49px;
+  color: white;
+}
+
+.is_view_text {
+  font-family: "Nippo";
+  font-size: 53px;
+  padding: 31px 0 32px 47px;
+  color: white;
+}
+
+.is_change_block {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 22px;
+  grid-row-gap: 16.2px;
+  margin: 0px 41px 41px 41px;
+}
+
+@media only screen and (max-width: 2560px) {
+  .section_two_blocks {
+    height: 285px;
+    min-height: 210px;
+  }
+
+  .section_two_blocks_one_part div {
+    width: 75px;
+    min-width: 56px;
+    height: 30px;
+    min-height: 22px;
+  }
+
+  .section_two_blocks_text {
+    font-size: 22px;
+    padding: 28px 0 0 33px;
+  }
+
+  .is_view_text{
+    font-size: 37px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .section_two_blocks {
+    height: 210px;
+    min-height: 177px;
+  }
+
+  .small_block_button_text {
+    font-size: 14px;
+  }
+
+  .section_two_blocks_one_part div {
+    width: 56px;
+    min-width: 47px;
+    height: 22px;
+    min-height: 19px;
+  }
+
+  .section_two_blocks_text{
+    font-size: 16px;
+    padding: 20px 0 0 24px;
+  }
+
+  .is_view_text{
+    font-size: 26px;
+    padding: 6px 0 30px 25px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .section_two_blocks {
+    height: 177px;
+    min-height: 140px;
+  }
+
+  .section_two_blocks_one_part div {
+    width: 47px;
+    min-width: 30px;
+    height: 19px;
+    min-height: 9px;
+  }
+
+  .section_two_blocks_text {
+    font-size: 14px;
+    padding: 17px 0 0 23px;
+  }
+
+  .is_view_text{
+    font-size: 23px;
+  }
+}

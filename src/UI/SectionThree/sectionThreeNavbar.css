@@ -1,0 +1,108 @@
+.Section3-navbar {
+    width: 90%;
+    margin: 20px auto 0;
+    display: flex;
+    background: linear-gradient(90deg, rgba(210, 70, 158, 0.2) 0.78%, rgba(75, 213, 207, 0.2) 100.02%);
+    align-items: center;
+}
+
+.Section3-navbar svg {
+    margin: 26px 22px 26px 55px;
+}
+
+.Section3-navbar h1 {
+    font-family: 'Nippobold';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 1.95386px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.Section3-navbar p {
+    margin-top: 9px;
+    margin-left: 17px;
+    font-family: 'Nippobold';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.range {
+    width: 95%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.img-range {
+    position: relative;
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(90deg, #4BD5CF 0.78%, #D2469E 100.02%);
+    z-index: 0;
+}
+
+.img-range::after {
+    top: -22px;
+    right: -55px;
+    position: absolute;
+    content: '12';
+    font-family: 'Nippo';
+    font-size: 33px;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.img-range::before {
+    top: -22px;
+    left: -30px;
+    position: absolute;
+    content: '0';
+    font-family: 'Nippo';
+    font-size: 33px;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.range-number p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 16px;
+    background: #fa0089;
+    opacity: 1;
+    box-shadow: 0px 0px 105.208px #E33093;
+    border-radius: 10.5208px;
+    top: -22px;
+    right: 105px;
+    position: absolute;
+    font-family: 'Nippobold';
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 6.31246px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.btn-upg {
+    padding: 10px 21px;
+    background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+    border-radius: 10.5208px;
+    font-family: 'NippoBold';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 28.5712px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.05208px;
+    color: #1A224B;
+    border: none;
+    outline: none;
+}

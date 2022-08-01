@@ -1,0 +1,239 @@
+.blocks {
+  height: 219px;
+  background: rgba(190, 190, 190, 0.1);
+  border-radius: 9.54494px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocks_boxes {
+  width: 80%;
+  height: 185px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 26px;
+  border-radius: 10px;
+  grid-column-gap: 26px;
+  border: 2px solid rgb(128, 128, 128, 0.1);
+}
+
+.blocks_images {
+  opacity: 0.4;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blocks_boxes p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+/* ______________________________ Block Two */
+
+.one_footer_small_block {
+  width: 11%;
+  height: 219px;
+  background: rgba(190, 190, 190, 0.1);
+  border-radius: 9.54494px;
+}
+
+.one_footer_small_block h3 {
+  font-family: "Nippo";
+  margin-top: 15px;
+  font-size: 30.5438px;
+  line-height: 107%;
+  text-align: center;
+  letter-spacing: 5.72697px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.one_footer_small_block .hr {
+  width: 93px;
+  background: #ea3498;
+  opacity: 0.4;
+  box-shadow: 0px -57.2697px 133.629px 171.809px rgba(234, 52, 151, 0.19);
+  margin: 10px auto 0;
+}
+
+.images {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.4;
+}
+
+.images svg {
+  width: 54px;
+  opacity: 0.4;
+}
+
+/* _____________________________ Block Three */
+
+.three_footer_small_block {
+  height: 219px;
+  width: 100%;
+  background: rgba(190, 190, 190, 0.1);
+  border-radius: 9.54494px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.three_footer_img_and_text {
+  display: flex;
+  height: 185px;
+  justify-content: space-around;
+  grid-row-gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.three_footer_one {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.three_footer_one img {
+  width: 58px;
+}
+
+.three_footer_one p {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.three_footer_two {
+  width: 50%;
+  position: relative;
+}
+
+.three_footer_two .one_img {
+  position: absolute;
+  left: 70px;
+  top: -150px;
+}
+
+.three_footer_two .two_img {
+  position: absolute;
+  left: 155px;
+}
+
+/* _________________Media  */
+
+@media only screen and (max-width: 2560px) {
+  .blocks_images svg, 
+  .images svg,
+  .three_footer_img_and_text svg{
+    width: 36px;
+  }
+
+  .blocks_boxes p, 
+  .three_footer_one p,
+  .one_footer_small_block h3 {
+    font-size: 20px;
+  }
+
+  .images {
+    margin: 20px auto;
+  }
+
+  .blocks,
+  .one_footer_small_block,
+  .three_footer_small_block {
+    height: 148px;
+  }
+
+  .blocks_boxes,
+  .three_footer_img_and_text {
+    height: 122px;
+  }
+
+  .three_footer_two .one_img {
+    left: 0px;
+    top: -110px;
+  }
+
+  .three_footer_two .two_img {
+    left: 77px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .blocks,
+  .one_footer_small_block,
+  .three_footer_small_block {
+    height: 109px;
+  }
+
+  .blocks_boxes,
+  .three_footer_img_and_text {
+    height: 92px;
+    grid-row-gap: 0px;
+  }
+
+  .images {
+    margin: auto;
+  }
+
+
+  .blocks_images svg, 
+  .images svg,
+  .three_footer_img_and_text svg{
+    width: 26px;
+  }
+
+  .blocks_boxes p, 
+  .three_footer_one p,
+  .one_footer_small_block h3 {
+    font-size: 12px;
+  }
+
+  .three_footer_two .one_img {
+    top: -85px;
+  }
+
+  .three_footer_two .two_img {
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+    .blocks,
+    .one_footer_small_block,
+    .three_footer_small_block  {
+      height: 92px;
+    }
+
+    .blocks_boxes
+    .three_footer_img_and_text {
+      height: 76px;
+    }
+
+    .blocks_images svg, 
+    .images svg,
+    .three_footer_img_and_text svg{
+      width: 22px;
+    }
+  
+    .blocks_boxes p, 
+    .three_footer_one p,
+    .one_footer_small_block h3 {
+      font-size: 9px;
+    }
+}

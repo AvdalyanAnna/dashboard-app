@@ -1,0 +1,53 @@
+.technical_blocks {
+  width: 330px;
+  height: 281px;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 70, 158, 0.3) 0.78%,
+    rgba(75, 213, 207, 0.3) 100.02%
+  );
+  border-radius: 10.5208px;
+}
+
+.technical_blocks h1 {
+    padding: 50px 0 0 47px;
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+}
+
+@media only screen and (max-width: 2560px) {
+  .technical_blocks {
+    width: 224px;
+    height: 190px;
+  }
+
+  .technical_blocks h1 {
+    padding: 33px 0 0 32px;
+    font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 1920px) {
+  .technical_blocks {
+    width: 164px;
+    height: 120px;
+  }
+
+  .technical_blocks h1 {
+    padding: 25px 0 0 23px;
+    font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 1440px) {
+  .technical_blocks {
+    width: 139px;
+    height: 85px;
+  }
+
+  .technical_blocks h1 {
+    padding: 21px 0 0 20px;
+    font-size: 11px;
+}
+}

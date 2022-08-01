@@ -1,15 +1,19 @@
 .Main {
     margin: 0 auto;
-    width: 86%;
+    width: 84%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-column-gap: 36px;
+    margin-top: 52px;
 }
 
-.main_left{
+.left {
     width: 20%;
+    height: 100%;
 }
 
-.main_right {
-    width: 75%;
+.right {
+    width: 80%;
+    height: 100%;
 }

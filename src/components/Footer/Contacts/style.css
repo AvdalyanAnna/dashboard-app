@@ -14,24 +14,30 @@
 }
 
 .footer_small_block {
-  width: 86%;
+  width: 84%;
   height: 250px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  grid-column-gap: 49px;
+}
+
+.two_footer_blocks_data {
+  width: 14%;
+  cursor: pointer;
+}
+
+.two_footer_blocks_data:hover {
+  background: linear-gradient(134.2deg, #ea3498 -2.74%, #a6075e 95.67%);
+  opacity: 0.9;
+  box-shadow: 0px 0px 95.4494px #e33093;
+  border-radius: 9.54494px;
 }
 
 /* __________________Block One */
 
-.one_footer_small_block {
-  height: 100%;
-  width: 15%;
-  background: rgba(190, 190, 190, 0.1);
-  border-radius: 9.54494px;
-}
-
-.one_footer_small_block h3 {
+/* .one_footer_small_block h3 {
   font-family: "Nippo";
   padding: 27px 55px 40px 75px;
   font-size: 30.5438px;
@@ -40,164 +46,24 @@
   letter-spacing: 5.72697px;
   color: #ffffff;
   opacity: 0.6;
-}
-
-.one_footer_small_block .hr {
-  width: 60%;
-  background: #ea3498;
-  opacity: 0.4;
-  box-shadow: 0px -57.2697px 133.629px 171.809px rgba(234, 52, 151, 0.19);
-  margin: auto;
-}
-
-.images {
-  width: 50%;
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.images img {
-  width: 54px;
-}
+} */
 
 /* __________________ Block Two */
 
 .two_footer_small_block {
   height: 100%;
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  grid-column-gap: 18px;
 }
 
-.horizontal_scroll {
-  display: none;
-  width: 100%;
-}
-
-.outer-wrapper {
-  max-width: 100vw;
-  overflow-x: scroll;
-  position: relative;
-  scrollbar-color: #d5ac68 #f1db9d;
-  scrollbar-width: thin;
-  -ms-overflow-style: none;
-}
-
-.pseduo-track {
-  background-color: #f1db9d;
-  height: 2px;
-  width: 100%;
-  position: relative;
-  top: -3px;
-  z-index: -10;
-}
-
-@media (any-hover: none) {
-  .pseduo-track {
-    display: none;
-  }
-}
-
-.outer-wrapper::-webkit-scrollbar {
-  height: 5px;
-}
-
-.outer-wrapper::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
-}
-
-.outer-wrapper::-webkit-scrollbar-thumb {
-  height: 5px;
-  background-color: #d5ac68;
-}
-
-.outer-wrapper::-webkit-scrollbar-thumb:hover {
-  background-color: #f1db9d;
-}
-
-.outer-wrapper::-webkit-scrollbar:vertical {
-  display: none;
-}
-
-.inner-wrapper {
-  display: flex;
-  padding-bottom: 10px;
-}
-
-.boxes {
-  width: 10%;
-  height: 100%;
-  background: rgba(190, 190, 190, 0.1);
-  border-radius: 9.54494px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.boxes img {
-  width: 58px;
-}
-
-.boxes p {
-  width: 100%;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff;
-  opacity: 0.8;
+.three_footer_small_block_div {
+  width: 18%;
 }
 
 /* _______________________ Block Three  */
-
-.three_footer_small_block {
-  height: 100%;
-  width: 20%;
-  background: rgba(190, 190, 190, 0.1);
-  border-radius: 9.54494px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.three_footer_one {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.three_footer_one img {
-  width: 58px;
-}
-
-.three_footer_one p {
-  width: 100%;
-  font-size: 30px;
-  text-align: center;
-  color: #ffffff;
-  opacity: 0.8;
-}
-
-.three_footer_two {
-  width: 50%;
-  position: relative;
-}
-
-.three_footer_two .one_img {
-  position: absolute;
-  left: 70px;
-  top: -150px;
-}
-
-.three_footer_two .two_img {
-  position: absolute;
-  left: 155px;
-}
 
 /* ________________ Media  2500px*/
 
@@ -210,7 +76,6 @@
 
   .one_footer_small_block h3 {
     font-size: 20px;
-    padding: 10px 55px 4px 75px;
   }
 
   .one_footer_small_block img,
@@ -247,7 +112,6 @@
 
   .one_footer_small_block h3 {
     font-size: 15px;
-    padding: 6px 30px 4px 30px;
   }
 
   .images {
@@ -287,7 +151,6 @@
 
   .one_footer_small_block h3 {
     font-size: 13px;
-    padding: 6px 20px 4px 20px;
   }
 
   .one_footer_small_block img,
@@ -325,7 +188,6 @@
 
   .one_footer_small_block h3 {
     font-size: 10px;
-    padding: 6px 20px 4px 20px;
   }
 
   .one_footer_small_block img,
@@ -381,7 +243,6 @@
     width: 50%;
     margin: auto;
     font-size: 16px;
-    padding: 6px 20px 4px 20px;
   }
 
   .one_footer_small_block img,

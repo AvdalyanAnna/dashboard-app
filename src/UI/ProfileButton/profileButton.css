@@ -1,0 +1,13 @@
+.profile_button {
+    width: 496px;
+    height: 104px;
+    background: url(../../assets/img/button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}

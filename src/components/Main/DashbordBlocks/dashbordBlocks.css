@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Nippo";
+  src: url(../../../assets/fonts/nippo-font/Fonts/WEB/fonts/Nippo-Extralight.ttf);
+}
+
+.Section {
+  margin-top: 40px;
+}
+
+.block-items {
+  width: 557px;
+  min-width: 377px;
+  height: 215px;
+  min-height: 145px;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 70, 158, 0.3) 0.78%,
+    rgba(75, 213, 207, 0.3) 100.02%
+  );
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-txt {
+  padding: 45px 0px 20px 20px;
+}
+
+.items-txt h1 {
+  font-size: 33px;
+  color: #ffffff;
+}
+
+.items-txt h2 {
+  color: #ffffff;
+  font-size: 54px;
+}
+
+.hr {
+  width: 261px;
+  height: 4px;
+  background: #ea3498;
+  box-shadow: 0px -63.263px 147.614px 189.789px rgba(234, 52, 151, 0.06);
+}
+
+.items-img{
+  fill: #424B5F;
+  opacity: 0.4;
+  padding-top: 21px;
+}
+
+@media only screen and (max-width: 2560px) {
+  .block-items{
+    width: 377px;
+    min-width: 277px;
+    height: 145px;
+    min-height: 107px;
+  }
+
+  .items-txt h1 {
+    font-size: 22px;
+  }
+
+  .hr{
+    width: 164px;
+  }
+
+  .items-txt h2 {
+    font-size: 37px;
+  }
+
+  .items-img svg{
+    width: 67px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .block-items{
+    width: 277px;
+    min-width: 234px;
+    height: 107px;
+    min-height: 90px;
+  }
+
+  .items-txt h1 {
+    font-size: 16px;
+  }
+
+  .hr{
+    width: 130px;
+  }
+
+  .items-txt {
+    padding: 20px 0 20px 20px;
+  }
+
+  .items-txt h2 {
+    font-size: 27px;
+  }
+
+  .items-img svg{
+    width: 49px;
+  }
+
+  .items-img {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .block-items{
+    width: 234px;
+    min-width: 190px;
+    height: 90px;
+    min-height: 56px;
+  }
+
+  .items-txt h1 {
+    font-size: 14px;
+  }
+
+  .hr{
+    width: 102px;
+  }
+
+  .items-txt h2 {
+    font-size: 23px;
+  }
+
+  .items-img svg{
+    width: 42px;
+  }
+}

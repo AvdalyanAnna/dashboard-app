@@ -1,0 +1,30 @@
+.profile_image {
+  width: 106px;
+  height: 106px;
+  background: rgba(210, 69, 158, 0.3);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 2560px) {
+  .profile_image {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .profile_image {
+    width: 53px;
+    height: 53px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .profile_image {
+    width: 45px;
+    height: 45px;
+  }
+}
