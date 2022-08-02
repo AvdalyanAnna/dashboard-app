@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.012f3994.css",
-    "main.js": "/dashboard-app/static/js/main.54d04c6c.js",
+    "main.css": "/dashboard-app/static/css/main.448a3e7a.css",
+    "main.js": "/dashboard-app/static/js/main.ed231b8a.js",
     "static/media/Rectangle7.png": "/dashboard-app/static/media/Rectangle7.fe5242634642d91e1952.png",
     "static/media/car.png": "/dashboard-app/static/media/car.ef283bb0aa46e1966ebf.png",
     "static/media/profileWive.png": "/dashboard-app/static/media/profileWive.67ddcc3739cbff505caf.png",
@@ -15,11 +15,11 @@
     "static/media/robot.png": "/dashboard-app/static/media/robot.93331e06cd4954f757b1.png",
     "static/media/ellipse1.png": "/dashboard-app/static/media/ellipse1.5ace2bdd69a2a38aaaf5.png",
     "index.html": "/dashboard-app/index.html",
-    "main.012f3994.css.map": "/dashboard-app/static/css/main.012f3994.css.map",
-    "main.54d04c6c.js.map": "/dashboard-app/static/js/main.54d04c6c.js.map"
+    "main.448a3e7a.css.map": "/dashboard-app/static/css/main.448a3e7a.css.map",
+    "main.ed231b8a.js.map": "/dashboard-app/static/js/main.ed231b8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.012f3994.css",
-    "static/js/main.54d04c6c.js"
+    "static/css/main.448a3e7a.css",
+    "static/js/main.ed231b8a.js"
   ]
 }
