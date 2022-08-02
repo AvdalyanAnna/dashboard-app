@@ -23,18 +23,24 @@
   );
 }
 
+
+
 .block_none {
-  background: linear-gradient(
-    37.72deg,
-    #ffffff -1.55%,
-    rgba(255, 255, 255, 0) 126.54%
-  );
+  background: rgba(190, 190, 190, 0.1);
 }
 
 @media only screen and (max-width: 2560px) {
   .boxes {
     width: 71px;
     height: 58px;
+  }
+
+  .block_plus svg{
+    width: 38px;
+  }
+
+  .block_checked svg {
+    width: 23px;
   }
 }
 
@@ -43,11 +49,27 @@
     width: 51px;
     height: 43px;
   }
+
+  .block_plus svg{
+    width: 28px;
+  }
+
+  .block_checked svg {
+    width: 18px;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
   .boxes {
     width: 41px;
     height: 36px;
+  }
+
+  .block_plus svg{
+    width: 24px;
+  }
+
+  .block_checked svg {
+    width: 14px;
   }
 }

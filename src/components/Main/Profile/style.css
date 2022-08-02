@@ -11,7 +11,7 @@
 .Profile {
   background: rgba(179, 175, 175, 0.12);
   border-radius: 6.45525px;
-  margin-top: 25px;
+  height: 100%;
 }
 
 .profile_container {
@@ -69,6 +69,7 @@
   position: absolute;
   top: 43px;
   right: 64px;
+  width: 5px;
 }
 
 .box3::before {
@@ -237,7 +238,7 @@
 
   .hr2 {
     height: 111px;
-    margin: 30px 64px;
+    margin: 30px 32px;
   }
 
   .box3-block-item p {
@@ -247,7 +248,7 @@
   }
 
   .box4 {
-    height: 600px;
+    height: 481px;
     margin-top: -24px;
   }
 
@@ -255,8 +256,16 @@
     left: 100px;
   }
 
+  .box5 h1 {
+    font-size: 38px;
+  }
+
+  .box5 p {
+    font-size: 20px;
+  }
+
   .button {
-    padding: 20px 79px 22px 104px;
+    padding: 10px 50px 10px 50px;
   }
 }
 
@@ -317,7 +326,7 @@
 
   .hr2 {
     height: 81px;
-    margin: 26px 47px;
+    margin: 26px 19px;
   }
 
   .box3-block-item p {
@@ -328,7 +337,7 @@
 
   .box4 {
     width: 100%;
-    height: 600px;
+    height: 375px;
     margin-top: -24px;
   }
 
@@ -336,8 +345,16 @@
     left: 70px;
   }
 
+  .box5 h1 {
+    font-size: 28px;
+  }
+
+  .box5 p {
+    font-size: 15px;
+  }
+
   .button {
-    padding: 15px 57px 16px 77px;
+    padding: 10px 25px 10px 25px;
   }
 }
 
@@ -404,7 +421,7 @@
 
   .hr2 {
     height: 69px;
-    margin: 28px 40px;
+    margin: 28px 6px;
   }
 
   .box3-block-item p {
@@ -415,15 +432,24 @@
 
   .box4 {
     width: 100%;
-    height: 600px;
-    margin-top: -24px;
+    height: 283px;
+    margin-top: -5px;
   }
 
   .box5 {
     left: 30px;
+    padding-top: 93px;
+  }
+
+  .box5 h1 {
+    font-size: 24px;
+  }
+
+  .box5 p {
+    font-size: 13px;
   }
 
   .button {
-    padding: 13px 49px 14px 65px;
+    padding: 5px;
   }
 }

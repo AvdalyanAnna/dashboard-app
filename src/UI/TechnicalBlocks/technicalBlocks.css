@@ -9,11 +9,109 @@
   border-radius: 10.5208px;
 }
 
-.technical_blocks h1 {
-    padding: 50px 0 0 47px;
-    font-size: 27px;
-    font-weight: 700;
-    color: white;
+.technical_blocks_text {
+  padding: 50px 0 0 47px;
+  font-size: 27px;
+  font-weight: 700;
+  color: white;
+}
+
+.temperature_text {
+  font-size: 100px;
+  color: white;
+}
+
+.temperature_one p {
+  color: white;
+  font-size: 29px;
+}
+
+.temperature_block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+}
+
+.temperature_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature_img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20px;
+  height: 100px;
+}
+
+.phone_one,
+.phone_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 69%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.phone_one svg,
+.phone_two svg {
+  width: 54px;
+  height: 33px;
+}
+
+.phone_block_text {
+  font-weight: 700;
+  font-size: 29px;
+  color: white;
+}
+
+.battery_block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.battery_text_one, 
+.battery_text_two {
+  display: flex;
+}
+
+.battery_text{
+  font-size: 54px;
+  color: white;
+  font-weight: 300;
+}
+
+.battery_span {
+  font-size: 29px;
+  color: white;
+  padding-top: 15px;
+}
+
+.trip_block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.trip_text_one, 
+.trip_text_two {
+  display: flex;
+}
+
+.trip_text{
+  font-size: 54px;
+  color: white;
+  font-weight: 300;
+}
+
+.trip_span {
+  font-size: 29px;
+  color: white;
+  padding-top: 15px;
 }
 
 @media only screen and (max-width: 2560px) {
@@ -22,10 +120,59 @@
     height: 190px;
   }
 
-  .technical_blocks h1 {
+  .technical_blocks_text {
     padding: 33px 0 0 32px;
     font-size: 17px;
-}
+  }
+
+  .temperature_text {
+    font-size: 67px;
+  }
+
+  .temperature_one p {
+    font-size: 19px;
+  }
+
+  .one_img svg,
+  .two_img svg {
+    width: 27px;
+  }
+
+  .phone_block_text {
+    font-size: 19px;
+  }
+
+  .phone_one svg,
+  .phone_two svg {
+    width: 37px;
+    height: 24px;
+  }
+
+  .battery_text{
+    font-size: 37px;
+  }
+  
+  .battery_span {
+    font-size: 19px;
+    padding-top: 5px;
+  }
+
+  .baterry_two svg{
+    height: 106px;
+  }
+
+  .trip_text{
+    font-size: 37px;
+  }
+  
+  .trip_span {
+    font-size: 19px;
+    padding-top: 5px;
+  }
+
+  .trip_two svg{
+    width: 38px;
+  }
 }
 
 @media only screen and (max-width: 1920px) {
@@ -34,10 +181,64 @@
     height: 120px;
   }
 
-  .technical_blocks h1 {
+  .technical_blocks_text {
     padding: 25px 0 0 23px;
     font-size: 13px;
-}
+  }
+
+  .temperature_text {
+    font-size: 50px;
+  }
+
+  .temperature_one p {
+    font-size: 14px;
+  }
+
+  .one_img svg,
+  .two_img svg {
+    width: 19px;
+  }
+
+  .phone_block_text {
+    font-size: 14px;
+  }
+
+  .phone_one svg,
+  .phone_two svg {
+    width: 27px;
+    height: 16px;
+  }
+
+  .phone_one,
+  .phone_two {
+    margin-top: 5px;
+  }
+
+  .battery_text{
+    font-size: 27px;
+  }
+  
+  .battery_span {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+
+  .baterry_two svg{
+    height: 60px;
+  }
+
+  .trip_text{
+    font-size: 27px;
+  }
+  
+  .trip_span {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+
+  .trip_two svg{
+    width: 28px;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -46,8 +247,62 @@
     height: 85px;
   }
 
-  .technical_blocks h1 {
+  .technical_blocks_text {
     padding: 21px 0 0 20px;
     font-size: 11px;
-}
+  }
+
+  .temperature_text {
+    font-size: 30px;
+  }
+
+  .temperature_one p {
+    font-size: 12px;
+  }
+
+  .one_img svg,
+  .two_img svg {
+    width: 17px;
+  }
+
+  .phone_block_text {
+    font-size: 12px;
+  }
+
+  .phone_one svg,
+  .phone_two svg {
+    width: 23px;
+    height: 15px;
+  }
+
+  .phone_one,
+  .phone_two {
+    margin-top: 2px;
+  }
+
+  .battery_text{
+    font-size: 15px;
+  }
+  
+  .battery_span {
+    font-size: 6px;
+    padding-top: 0px;
+  }
+
+  .baterry_two svg{
+    height: 40px;
+  }
+
+  .trip_text{
+    font-size: 15px;
+  }
+  
+  .trip_span {
+    font-size: 6px;
+    padding-top: 0px;
+  }
+
+  .trip_two svg{
+    width: 24px;
+  }
 }

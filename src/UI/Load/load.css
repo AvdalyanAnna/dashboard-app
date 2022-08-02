@@ -1,0 +1,49 @@
+.load {
+  width: 326px;
+  height: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 70, 158, 0.3) 0.78%,
+    rgba(75, 213, 207, 0.3) 100.02%
+  );
+  border-radius: 10.5438px;
+}
+
+.load_finish {
+  background: #5b9ce4;
+  border-radius: 8.43507px;
+  height: 16px;
+}
+
+@media only screen and (max-width: 2560px) {
+    .load{
+        width: 221px;
+        height: 11px;
+    }
+
+    .load_finish {
+        height: 11px;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .load {
+        width: 162px;
+        height: 8.41px;
+    }
+
+    .load_finish {
+        height: 8.41px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .load {
+        width: 137px;
+        height: 7px;
+    }
+
+    .load_finish {
+        height: 7px;
+    }
+}

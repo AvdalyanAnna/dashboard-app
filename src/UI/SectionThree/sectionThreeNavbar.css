@@ -106,3 +106,40 @@
     border: none;
     outline: none;
 }
+
+@media only screen and (max-width: 1920px) {
+    .Section3-navbar h1 {
+        font-size: 13px;
+    }
+
+    .Section3-navbar svg {
+        margin: 25px 13px 26px 17px;
+    }
+
+    .Section3-navbar p {
+        font-size: 13px;
+    }
+
+    .btn-upg {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .Section3-navbar h1 {
+        font-size: 11px;
+    }
+
+    .Section3-navbar svg {
+        margin: 25px 13px 26px 17px;
+    }
+
+    .Section3-navbar p {
+        font-size: 11px;
+    }
+
+    .btn-upg {
+        font-size: 12px;
+        padding: 1px 15px;
+    }
+}

@@ -51,7 +51,7 @@
 .is_change_block {
   display: flex;
   flex-wrap: wrap;
-  grid-column-gap: 22px;
+  grid-column-gap: 8.26px;
   grid-row-gap: 16.2px;
   margin: 0px 41px 41px 41px;
 }
@@ -76,6 +76,12 @@
 
   .is_view_text{
     font-size: 37px;
+    padding: 3px 0 5px  32px;
+  }
+
+  .is_change_block {
+    grid-column-gap: 5px;
+    grid-row-gap: 8.26px;
   }
 }
 
@@ -103,7 +109,11 @@
 
   .is_view_text{
     font-size: 26px;
-    padding: 6px 0 30px 25px;
+  }
+
+  .is_change_block {
+    grid-column-gap: 4.13px;
+    grid-row-gap: 8.26px;
   }
 }
 
@@ -118,14 +128,22 @@
     min-width: 30px;
     height: 19px;
     min-height: 9px;
+    margin: 18px 50px 0 0;
   }
 
   .section_two_blocks_text {
     font-size: 14px;
-    padding: 17px 0 0 23px;
+    padding: 17px 0 0 33px;
   }
 
   .is_view_text{
     font-size: 23px;
   }
+
+  .is_change_block {
+    grid-column-gap: 3px;
+    grid-row-gap: 5px;
+    margin: 0px 32px 32px 32px;
+  }
+  
 }
