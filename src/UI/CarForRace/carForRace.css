@@ -2,7 +2,7 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: 40px auto;
+  margin: 40px auto 0;
 }
 
 .car_for_race_left {
@@ -59,5 +59,9 @@
   .car_for_race_one_left h1,
   .car_for_race_two_left h1 {
     font-size: 11px;
+  }
+
+  .car_for_race_left{
+    grid-row-gap: 5px;
   }
 }

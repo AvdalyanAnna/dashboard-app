@@ -19,7 +19,9 @@ export const DASHBORD_BLOCK = [
         />
       </svg>
     ),
-    isView: true,
+    isViewButton: true,
+    buttonColor: 'green',
+    isLoad: false,
   },
   {
     id: 1,
@@ -53,7 +55,8 @@ export const DASHBORD_BLOCK = [
         />
       </svg>
     ),
-    isView: false,
+    isViewButton: false,
+    isLoad: false,
   },
   {
     id: 1,
@@ -93,7 +96,9 @@ export const DASHBORD_BLOCK = [
         />
       </svg>
     ),
-    isView: true,
+    isViewButton: true,
+    buttonColor: 'red',
+    isLoad: false,
   },
   {
     id: 1,
@@ -121,6 +126,7 @@ export const DASHBORD_BLOCK = [
         />
       </svg>
     ),
-    isView: true,
+    isViewButton: false,
+    isLoad: true,
   },
 ];

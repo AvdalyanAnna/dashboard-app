@@ -175,6 +175,10 @@
     top: -5px;
     left: 60px;
   }
+
+  .footer_big_block {
+    padding: 5px 0px;
+  }
 }
 
 /* ________________ Media  960px*/

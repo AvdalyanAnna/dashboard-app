@@ -1,6 +1,7 @@
 .Main {
     margin: 0 auto;
     width: 84%;
+    height: 1441px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,4 +17,22 @@
 .right {
     width: 80%;
     height: 100%;
+}
+
+@media only screen and (max-width: 2560px) {
+    .Main {
+        height: 977px;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .Main {
+        height: 718px;
+    }
+}
+
+@media only screen and (1440px) {
+    .Main {
+        height: 606px;
+    }
 }

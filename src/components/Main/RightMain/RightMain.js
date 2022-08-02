@@ -17,6 +17,9 @@ const RightMain = () => {
               title={e.title}
               text={e.cost}
               img={e.img}
+              isView={e.isViewButton}
+              color={e.buttonColor}
+              isLoad={e.isLoad}
             />
           );
         })}

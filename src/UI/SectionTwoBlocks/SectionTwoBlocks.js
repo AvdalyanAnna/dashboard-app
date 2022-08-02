@@ -19,9 +19,12 @@ const SectionTwoBlocks = ({ title, isBlock, text, isChange, isView }) => {
 
       {isChange ? (
         <div className="is_change_block">
-          <EmptyPlus isClass={"checked"} />
-          <EmptyPlus isClass={"plus"} />
-          <EmptyPlus isClass={"none"} />
+          <EmptyPlus isClass={"checked"} isChecked={true}/>
+          <EmptyPlus isClass={"checked"} isChecked={true}/>
+          <EmptyPlus isClass={"checked"} isChecked={true}/>
+          <EmptyPlus isClass={"plus"} isPlus={true}/>
+          <EmptyPlus isClass={"none"} isEmpty={true}/>
+          <EmptyPlus isClass={"none"} isEmpty={true}/>
         </div>
       ) : (
         <CarForRace />
